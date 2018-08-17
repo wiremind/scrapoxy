@@ -3,7 +3,7 @@ Changelog
 =========
 
 
-X.X.X
+3.1.1
 =====
 
 Bug fixes
