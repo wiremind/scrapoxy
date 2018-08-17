@@ -3,6 +3,15 @@ Changelog
 =========
 
 
+X.X.X
+=====
+
+Bug fixes
+---------
+
+- **master**: use correctly writeEnd in socket and request (thanks to Ben Lavalley)
+
+
 3.1.0
 =====
 
