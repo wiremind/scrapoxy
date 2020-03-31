@@ -125,7 +125,7 @@ module.exports = class Master {
             // Make request
             const proxyOpts = _.merge(createProxyOpts(req.url), {
                 method: req.method,
-                headers: req.headers,
+                headers: _.omit(req.headers, ['proxy-authorization']),
                 agent: self._proxyAgent,
                 proxy: instance.proxyParameters,
             });
